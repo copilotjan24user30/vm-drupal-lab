@@ -1,0 +1,12 @@
+# custom_login_signup.libraries.yml
+
+custom-login-signup:
+  version: 1.x
+  css:
+    theme:
+      css/custom_login_signup.css: {}
+  js:
+    js/custom_login_signup.js: {}
+    dependencies:
+      - core/jquery
+      - core/drupal

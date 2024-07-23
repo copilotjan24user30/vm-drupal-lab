@@ -1,0 +1,15 @@
+# my_module.libraries.yml
+
+my_module_styles:
+  version: 1.x
+  css:
+    theme:
+      css/my_module.styles.css: {}
+
+my_module_scripts:
+  version: 1.x
+  js:
+    js/my_module.script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

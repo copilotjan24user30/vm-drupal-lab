@@ -1,0 +1,9 @@
+name: Custom Login Signup
+type: module
+description: Provides a custom Drupal 10 component for the login/signup form.
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom
+dependencies:
+  - block
+  - user
+version: 1.0

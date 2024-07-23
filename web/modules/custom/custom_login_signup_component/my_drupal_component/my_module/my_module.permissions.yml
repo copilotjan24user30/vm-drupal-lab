@@ -1,0 +1,19 @@
+access content:
+  title: 'Access content'
+  description: 'Allows users to access content.'
+  restrict access: true
+
+create account:
+  title: 'Create account'
+  description: 'Allows users to create an account.'
+  restrict access: true
+
+login:
+  title: 'Login'
+  description: 'Allows users to log in to the site.'
+  restrict access: true
+
+logout:
+  title: 'Logout'
+  description: 'Allows users to log out from the site.'
+  restrict access: true

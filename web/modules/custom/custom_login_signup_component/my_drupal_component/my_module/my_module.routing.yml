@@ -1,0 +1,15 @@
+my_module.login:
+  path: '/user/login'
+  defaults:
+    _controller: '\Drupal\my_module\Controller\LoginController::login'
+    _title: 'User Login'
+  requirements:
+    _permission: 'access content'
+
+my_module.signup:
+  path: '/user/signup'
+  defaults:
+    _controller: '\Drupal\my_module\Controller\SignupController::signup'
+    _title: 'User Signup'
+  requirements:
+    _permission: 'access content'
